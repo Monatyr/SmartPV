@@ -1,0 +1,7 @@
+/.idea/
+/target/
+server.iml
+/src/simulation/data/
+/src/simulation/drawing/charts/
+/docs/dbdumps/
+src/simulation/drawing/__pycache__/

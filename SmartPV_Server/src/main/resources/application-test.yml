@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27018/smartpv
+      database: smartpv
+
+system:
+  measure: false
+  collectDevicesStatus: false
+  manageDevices: false

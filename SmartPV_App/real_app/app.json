@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Smart-PV",
+    "slug": "Smart-PV",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/green_energy.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.monatyr.SmartPV"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "07f4520a-d2f8-446d-8a80-2f2d171d9437"
+      }
+    }
+  }
+}

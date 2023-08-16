@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/smartPV
+      database: smartPV
+
+system:
+  measure: true
+  collectDevicesStatus: true
+  manageDevices: false
+  cron:
+    measurement: "0 */1 * * * *"
+    management: "0 */1 * * * *"
+    collectDevicesStatus: "0 */1 * * * *"
+
+counter:
+  url: http://127.0.0.1:5000/
+  endpoints:
+    simpson: simpson
+    average: average
+    duration: duration
